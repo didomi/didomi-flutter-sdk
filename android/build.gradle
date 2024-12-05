@@ -53,6 +53,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    kotlinOptions {
+        jvmTarget = project.kotlinJvmTarget
+    }
+
     packagingOptions {
         exclude("androidsupportmultidexversion.txt")
     }

@@ -56,6 +56,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    kotlinOptions {
+        jvmTarget = project.kotlinJvmTarget
+    }
+
     packagingOptions {
         resources {
             // Required for minSdkVersion < 21
