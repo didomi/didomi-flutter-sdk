@@ -54,7 +54,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = project.kotlinJvmTarget
+        jvmTarget = JavaVersion.VERSION_17
     }
 
     packagingOptions {
